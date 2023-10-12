@@ -16,17 +16,17 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#576e90] text-gray-300'>
             <div>
-                <img src={logo2} alt="logo" style={{ width: '150px', rotate:'-10deg'}} />
+                <img src={logo2} alt="logo" style={{ width: '150px', rotate: '-10deg' }} />
             </div>
             {/* menu */}
 
             <ul className='hidden md:flex'>
                 <li>
-                    
+
                     <Link className='text-white group  hover:text-[#c38d93]' to="home" smooth={true} duration={500}>
                         Home
                     </Link>
-                 
+
                 </li>
                 <li>
                     <Link className='text-white group  hover:text-[#c38d93]' to="about" smooth={true} duration={500}>
@@ -51,9 +51,13 @@ const Navbar = () => {
             </ul>
 
             {/* hamburger menu */}
-            <div onClick={toggleNav} className='md:hidden z-10'>
+
+            <div onClick={toggleNav} className='md:hidden z-10 hover:bg-[#0a192f] rounded-full p-2'>
+
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
+           
+
             {/* mobile menu */}
 
             <ul className={!nav ? 'hidden' : 'transition ease-in-out delay-150 duration-1000 rounded-lg shadow-lg absolute top-0 right-0 w-[50%] bg-[#0a192f] flex flex-col justify-center items-center'}>
@@ -78,7 +82,7 @@ const Navbar = () => {
                 </li>
             </ul>
 
-         
+
             {/* Social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
