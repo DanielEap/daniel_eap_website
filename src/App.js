@@ -5,9 +5,11 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hobbies from "./components/Hobbies";
+import Head from "./components/Head";
 function App() {
   return (
     <div>
+      <Head />
       <Navbar />
       <Home />
       <About />

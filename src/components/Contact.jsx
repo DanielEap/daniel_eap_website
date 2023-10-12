@@ -61,7 +61,7 @@ const Contact = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li> */}
-          <li className='bg-[#565f69] transition duration-300 transform hover:-translate-y-1 hover:-translate-x-1 hover:shadow-lg'>
+          <li className='bg-[#565f69] rounded-md transition duration-300 transform hover:-translate-y-1 hover:-translate-x-1 hover:shadow-lg'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href={resumeNoAddress} target="_blank"
