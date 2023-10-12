@@ -33,7 +33,7 @@ const handleSubmit = (e) => {
     }
 }
   return (
-    <div name='contact' className='w-full h-screen bg-gradient-to-r from-[#7DC3AF] to-[#069B9D] flex justify-center items-center p-4'>
+    <div name='contact' className='w-full h-full py-12 bg-gradient-to-r from-[#7DC3AF] to-[#069B9D] flex justify-center items-center p-4'>
       <form onSubmit={handleSubmit} className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-[#e27d60] text-gray-300'>Contact</p>
