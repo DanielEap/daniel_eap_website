@@ -12,7 +12,8 @@ import { MdDescription } from 'react-icons/md'
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const toggleNav = () => setNav(!nav)
-
+    const navbarHeight = -80;
+    const navbarDuration = 500;
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#576e90] text-gray-300'>
             <div>
@@ -23,28 +24,28 @@ const Navbar = () => {
             <ul className='hidden md:flex'>
                 <li>
 
-                    <Link className='text-white group  hover:text-[#c38d93]' to="home" smooth={true} duration={500}>
+                    <Link className='text-white group  hover:text-[#c38d93]' to="home" smooth={true} duration={navbarDuration} offset={navbarHeight} >
                         Home
                     </Link>
 
                 </li>
                 <li>
-                    <Link className='text-white group  hover:text-[#c38d93]' to="about" smooth={true} duration={500}>
+                    <Link className='text-white group  hover:text-[#c38d93]' to="about" smooth={true} duration={navbarDuration} offset={navbarHeight}>
                         About
                     </Link>
                 </li>
-                {/* <li>
-                    <Link to="skills" smooth={true} duration={500}>
-                        Skills
-                    </Link>
-                </li> */}
                 <li>
-                    <Link className='text-white group   hover:text-[#c38d93]' to="work" smooth={true} duration={500}>
+                    <Link className='text-white group  hover:text-[#c38d93]' to="hobbies" smooth={true} duration={navbarDuration} offset={navbarHeight}>
+                        Hobbies
+                    </Link>
+                </li>
+                <li>
+                    <Link className='text-white group   hover:text-[#c38d93]' to="work" smooth={true} duration={navbarDuration} offset={navbarHeight}>
                         Work
                     </Link>
                 </li>
                 <li>
-                    <Link className='text-white group   hover:text-[#c38d93]' to="contact" smooth={true} duration={500}>
+                    <Link className='text-white group   hover:text-[#c38d93]' to="contact" smooth={true} duration={navbarDuration} offset={navbarHeight}>
                         Contact
                     </Link>
                 </li>
@@ -62,21 +63,25 @@ const Navbar = () => {
 
             <ul className={!nav ? 'hidden' : 'transition ease-in-out delay-150 duration-1000 rounded-lg shadow-lg absolute top-0 right-0 w-[50%] bg-[#0a192f] flex flex-col justify-center items-center'}>
                 <li className='py-4 text-2xl'>
-                    <Link onClick={toggleNav} to="home" smooth={true} duration={500}>
+                    <Link onClick={toggleNav} to="home" smooth={true} duration={navbarDuration} offset={navbarHeight}>
                         Home
                     </Link></li>
                 <li className='py-4 text-2xl'>
-                    <Link onClick={toggleNav} to="about" smooth={true} duration={500}>
+                    <Link onClick={toggleNav} to="about" smooth={true} duration={navbarDuration} offset={navbarHeight}>
                         About
                     </Link>
                 </li>
-                {/* <li className='py-6 text-4xl'>Skills</li> */}
                 <li className='py-4 text-2xl'>
-                    <Link onClick={toggleNav} to="work" smooth={true} duration={500}>
+                    <Link onClick={toggleNav} to="hobbies" smooth={true} duration={navbarDuration} offset={navbarHeight}>
+                        Hobbies
+                    </Link>
+                </li>
+                <li className='py-4 text-2xl'>
+                    <Link onClick={toggleNav} to="work" smooth={true} duration={navbarDuration} offset={navbarHeight}>
                         Work
                     </Link></li>
                 <li className='py-4 text-2xl'>
-                    <Link onClick={toggleNav} to="contact" smooth={true} duration={500}>
+                    <Link onClick={toggleNav} to="contact" smooth={true} duration={navbarDuration} offset={navbarHeight}>
                         Contact
                     </Link>
                 </li>

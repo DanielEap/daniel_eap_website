@@ -1,7 +1,7 @@
 import React from 'react'
 const Hobbies = () => {
     return (
-        <div name='about' className='w-full h-full py-12 bg-gradient-to-r from-[#069B9D] to-[#7DC3AF] text-gray-300'>
+        <div name='hobbies' className='w-full h-full py-12 bg-gradient-to-r from-[#069B9D] to-[#7DC3AF] text-gray-300'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#e27d60]'>
                     Hobbies
