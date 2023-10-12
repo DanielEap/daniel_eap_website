@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import resume from '../assets/Resume F23.pdf'
 import resumeNoAddress from '../assets/Resume F23 No Address.pdf'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { MdDescription} from 'react-icons/md'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 const Contact = () => {
@@ -37,38 +38,40 @@ const Contact = () => {
         <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
         <div>
         <ul className='flex space-x-6 flex-row place-content-center '>
-          <li className='bg-blue-600 transition duration-300 transform hover:-translate-y-1 hover:-translate-x-1 hover:shadow-lg'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/eapdaniel/' target="_blank"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className=' bg-[#333333] transition duration-300 transform hover:-translate-y-1 hover:-translate-x-1 hover:shadow-lg'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.github.com/DanielEap' target="_blank"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          {/* <li className='bg-[#6fc2b0]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li> */}
-          <li className='bg-[#565f69] rounded-md transition duration-300 transform hover:-translate-y-1 hover:-translate-x-1 hover:shadow-lg'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href={resumeNoAddress} target="_blank"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
+        <ul className='flex space-x-6 flex-row place-content-center'>
+            <li className='bg-blue-600 rounded-md transition duration-300 transform hover:-translate-y-1 hover:-translate-x-1 hover:shadow-lg w-32'>
+                <a
+                    className='flex justify-between items-center w-full text-gray-300'
+                    href='https://www.linkedin.com/in/eapdaniel/' target="_blank"
+                >
+                    Linkedin <FaLinkedin size={30} />
+                </a>
+            </li>
+            <li className=' bg-[#333333] rounded-md transition duration-300 transform hover:-translate-y-1 hover:-translate-x-1 hover:shadow-lg w-32'>
+                <a
+                    className='flex justify-between items-center w-full text-gray-300'
+                    href='https://www.github.com/DanielEap' target="_blank"
+                >
+                    Github <FaGithub size={30} />
+                </a>
+            </li>
+            {/* <li className='bg-[#6fc2b0]'>
+                <a
+                    className='flex justify-between items-center w-full text-gray-300'
+                    href='/'
+                >
+                    Email <HiOutlineMail size={30} />
+                </a>
+            </li> */}
+            <li className='bg-[#565f69] rounded-md transition duration-300 transform hover:-translate-y-1 hover:-translate-x-1 hover:shadow-lg w-32'>
+                <a
+                    className='flex justify-between items-center w-full text-gray-300'
+                    href={resumeNoAddress} target="_blank"
+                >
+                    Resume <MdDescription size={30} />
+                </a>
+            </li>
+        </ul>
         </ul>
       </div>
       </form> 

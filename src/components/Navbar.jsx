@@ -7,6 +7,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll'
+import { MdDescription } from 'react-icons/md'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -110,7 +111,7 @@ const Navbar = () => {
                             className='flex justify-between items-center w-full text-gray-300'
                             href={resumeNoAddress} target="_blank"
                         >
-                            Resume <BsFillPersonLinesFill size={30} />
+                            Resume <MdDescription size={30} />
                         </a>
                     </li>
                 </ul>
