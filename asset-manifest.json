@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daniel_eap_website/static/css/main.7c215730.css",
-    "main.js": "/daniel_eap_website/static/js/main.0893702b.js",
+    "main.js": "/daniel_eap_website/static/js/main.c310382a.js",
     "static/media/Logo240.png": "/daniel_eap_website/static/media/Logo240.bb57a69fa0a3154aa3d3.png",
     "static/media/terminal.jpg": "/daniel_eap_website/static/media/terminal.aabb736c2f7cf82ddbff.jpg",
     "static/media/Resume F23 No Address.pdf": "/daniel_eap_website/static/media/Resume F23 No Address.34077621ba6c640a1a16.pdf",
@@ -9,10 +9,10 @@
     "static/media/Logo.png": "/daniel_eap_website/static/media/Logo.b3460309f5f54d08f4a3.png",
     "index.html": "/daniel_eap_website/index.html",
     "main.7c215730.css.map": "/daniel_eap_website/static/css/main.7c215730.css.map",
-    "main.0893702b.js.map": "/daniel_eap_website/static/js/main.0893702b.js.map"
+    "main.c310382a.js.map": "/daniel_eap_website/static/js/main.c310382a.js.map"
   },
   "entrypoints": [
     "static/css/main.7c215730.css",
-    "static/js/main.0893702b.js"
+    "static/js/main.c310382a.js"
   ]
 }
