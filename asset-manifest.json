@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/daniel_eap_website/static/css/main.ac70af63.css",
-    "main.js": "/daniel_eap_website/static/js/main.1e963878.js",
+    "main.css": "/daniel_eap_website/static/css/main.195823ef.css",
+    "main.js": "/daniel_eap_website/static/js/main.d6c8d640.js",
+    "static/media/Self.png": "/daniel_eap_website/static/media/Self.4c7e2312252f553a80da.png",
     "static/media/Resume F23.pdf": "/daniel_eap_website/static/media/Resume F23.0f4fbc82f96ab75bb088.pdf",
     "static/media/map.jpg": "/daniel_eap_website/static/media/map.3079cda8a593c84cb109.jpg",
-    "static/media/Logo240.png": "/daniel_eap_website/static/media/Logo240.bb57a69fa0a3154aa3d3.png",
+    "static/media/Logo240.png": "/daniel_eap_website/static/media/Logo240.d9fe793c93cf44f89b2b.png",
     "static/media/terminal.jpg": "/daniel_eap_website/static/media/terminal.aabb736c2f7cf82ddbff.jpg",
     "static/media/Resume F23 No Address.pdf": "/daniel_eap_website/static/media/Resume F23 No Address.34597c75b9e320a8ddd8.pdf",
     "static/media/Logo.png": "/daniel_eap_website/static/media/Logo.b3460309f5f54d08f4a3.png",
     "index.html": "/daniel_eap_website/index.html",
-    "main.ac70af63.css.map": "/daniel_eap_website/static/css/main.ac70af63.css.map",
-    "main.1e963878.js.map": "/daniel_eap_website/static/js/main.1e963878.js.map"
+    "main.195823ef.css.map": "/daniel_eap_website/static/css/main.195823ef.css.map",
+    "main.d6c8d640.js.map": "/daniel_eap_website/static/js/main.d6c8d640.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac70af63.css",
-    "static/js/main.1e963878.js"
+    "static/css/main.195823ef.css",
+    "static/js/main.d6c8d640.js"
   ]
 }
