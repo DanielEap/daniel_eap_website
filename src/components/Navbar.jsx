@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/Logo.png'
 import logo2 from '../assets/Logo240.png'
-import resume from '../assets/Resume F23.pdf'
 import resumeNoAddress from '../assets/Resume F23 No Address.pdf'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
