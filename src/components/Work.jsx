@@ -54,13 +54,13 @@ const Work = () => {
                             </div>
                             <div className='pt-8 text-center'>
                                 <div className='flex flex-row justify-center items-center'>
-                                    <a href="https://github.com/xman343/OwlHack2023CB" target='_blank'>
+                                    <a href="https://www.devpost.com/software/colorblindness-image-enhancer" target='_blank'>
                                         <span className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#c38d93]'>
                                             Demo
                                             <TbExternalLink className='inline-block ml-2' />
                                         </span>
                                     </a>
-                                    <a href="https://www.devpost.com/software/colorblindness-image-enhancer" target='_blank'>
+                                    <a href="https://github.com/xman343/OwlHack2023CB" target='_blank'>
                                         <span className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#c38d93]'>
                                             Code
                                             <TbExternalLink className='inline-block ml-2' />
