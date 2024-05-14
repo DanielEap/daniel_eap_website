@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../assets/Logo.png'
 import logo2 from '../assets/Logo240.png'
-import resumeNoAddress from '../assets/Resume F23 No Address.pdf'
+import resumeNoAddress from '../assets/Resume SP24 No Address.pdf'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -34,13 +34,13 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link className='text-white group  hover:text-[#c38d93]' to="hobbies" smooth={true} duration={navbarDuration} offset={navbarHeight}>
-                        Hobbies
+                    <Link className='text-white group   hover:text-[#c38d93]' to="work" smooth={true} duration={navbarDuration} offset={navbarHeight}>
+                        Work
                     </Link>
                 </li>
                 <li>
-                    <Link className='text-white group   hover:text-[#c38d93]' to="work" smooth={true} duration={navbarDuration} offset={navbarHeight}>
-                        Work
+                    <Link className='text-white group  hover:text-[#c38d93]' to="hobbies" smooth={true} duration={navbarDuration} offset={navbarHeight}>
+                        Hobbies
                     </Link>
                 </li>
                 <li>

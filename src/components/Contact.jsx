@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import resumeNoAddress from '../assets/Resume F23 No Address.pdf'
+import resumeNoAddress from '../assets/Resume SP24 No Address.pdf'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { MdDescription } from 'react-icons/md'
 import { HiOutlineMail } from 'react-icons/hi'

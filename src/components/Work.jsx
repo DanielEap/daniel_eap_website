@@ -2,6 +2,7 @@ import React from 'react'
 import DevpostImg from '../assets/Devpost.jpg'
 import TerminalImg from '../assets/terminal.jpg'
 import MapImg from '../assets/map.jpg'
+import SmartWeightsImg from '../assets/SmartWeights.png'
 import { TbExternalLink } from 'react-icons/tb'
 const Work = () => {
     return (
@@ -14,6 +15,34 @@ const Work = () => {
                 {/* container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                     {/* item */}
+                    <div style={{ backgroundImage: `url(${SmartWeightsImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        {/* hover effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <div className='text-center'>
+                                <span className='text-2xl text-justify font-bold text-white tracking-wider'>
+                                    SmartWeights
+                                </span>
+                            </div>
+                            <div className='pt-8 text-center'>
+                                <div className='flex flex-row justify-center items-center'>
+                                    <a href="https://github.com/DanielEap/project-smartweights" target='_blank'>
+                                        <span className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#c38d93]'>
+                                            Demo
+                                            <TbExternalLink className='inline-block ml-2' />
+                                        </span>
+                                    </a>
+                                    <a href="https://github.com/DanielEap/project-smartweights" target='_blank'>
+                                        <span className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#c38d93]'>
+                                            Code
+                                            <TbExternalLink className='inline-block ml-2' />
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div style={{ backgroundImage: `url(${DevpostImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
