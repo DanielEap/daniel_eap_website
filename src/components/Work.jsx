@@ -25,7 +25,7 @@ const Work = () => {
                             </div>
                             <div className='pt-8 text-center'>
                                 <div className='flex flex-row justify-center items-center'>
-                                    <a href="https://github.com/DanielEap/project-smartweights" target='_blank'>
+                                    <a href="https://youtu.be/AD3l64cPXSI" target='_blank'>
                                         <span className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#c38d93]'>
                                             Demo
                                             <TbExternalLink className='inline-block ml-2' />
